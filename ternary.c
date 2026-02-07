@@ -9,6 +9,7 @@ void main(){
     
     
     printf(
-        a>18 ? (a>25 ? "lagan kar" : "job kar") : (a>13 ? "teenager" : "kid")
+        a>18 ? (a>25 ? "late 20's" : "early 20's") : (a>13 ? "teenager" : "kid")
     );
+
 }
