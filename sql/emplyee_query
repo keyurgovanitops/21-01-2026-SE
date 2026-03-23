@@ -1,0 +1,119 @@
+1. Display all records from the `employees` table.
+
+2. Display only `first_name`, `last_name`, and `salary` from the table.
+
+3. Show all employees who belong to the `IT` department.
+
+4. Show all employees whose salary is greater than `60000`.
+
+5. Show all employees whose salary is less than `50000`.
+
+6. Show all employees who are from `Ahmedabad`.
+
+7. Show all employees whose `status` is `Active`.
+
+8. Show all employees whose department is `IT` **and** whose salary is greater than `60000`.
+
+9. Show all employees whose department is `HR` **or** `Finance`.
+
+10. Show all employees whose salary is between `45000` and `65000`.
+
+11. Show all employees whose city is in `Ahmedabad`, `Mumbai`, or `Delhi`.
+
+12. Show all employees whose department is not in `Sales` and `Support`.
+
+13. Show all employees hired after `2020-01-01`.
+
+14. Show all employees whose experience is greater than or equal to `5` years.
+
+15. Show all employees whose performance score is between `7` and `9`.
+
+16. Show all employees whose first name starts with `A`.
+
+17. Show all employees whose last name ends with `a`.
+
+18. Show all employees whose email contains `example.com`.
+
+19. Display employees sorted by salary in ascending order.
+
+20. Display employees sorted by salary in descending order.
+
+21. Display the top 10 employees from the table.
+
+22. Display distinct department names from the table.
+
+23. Count total number of employees.
+
+24. Find the maximum salary in the table.
+
+25. Find the minimum salary in the table.
+
+26. Find the average salary of all employees.
+
+27. Find the total salary paid to all employees.
+
+28. Count how many employees are in the `IT` department.
+
+29. Count how many employees belong to each status.
+
+30. Find the average salary department-wise.
+
+31. Display all employees whose salary is greater than the average salary.
+
+32. Display employee names in uppercase.
+
+33. Display employee names in lowercase.
+
+34. Find the length of each employee’s first name.
+
+35. Display each employee’s full name by combining first name and last name.
+
+36. Show today’s date using SQL.
+
+37. Find how many days each employee has worked in the company till today.
+
+38. Find the year from each employee’s hire date.
+
+39. Find the month from each employee’s date of birth.
+
+40. Show all employees born after the year `1995`.
+
+41. Insert one new employee record into the table.
+
+42. Insert three new employee records in a single query.
+
+43. Update the salary of an employee whose `emp_id` is `5`.
+
+44. Update the department of all employees from `Support` to `Customer Support`.
+
+45. Increase salary by `5000` for employees in the `HR` department.
+
+46. Change the status to `Inactive` for employees whose performance score is less than `6`.
+
+47. Delete one employee whose `emp_id` is `100`.
+
+48. Delete all employees whose status is `Inactive`.
+
+49. Delete employees whose hire date is before `2016-01-01`.
+
+50. Display all employees where city is `Ahmedabad` and salary is between `50000` and `70000`.
+
+51. Display all employees whose department is `IT`, `HR`, or `Finance` and whose status is `Active`.
+
+52. Display all employees whose first name starts with `R` and city is not `Delhi`.
+
+53. Find the number of employees in each department.
+
+54. Find the highest salary in each department.
+
+55. Find the lowest salary in each department.
+
+56. Find the total salary in each department.
+
+57. Show departments where average salary is greater than `50000`.
+
+58. Display all employees whose phone number starts with `9876`.
+
+59. Display all employees whose job title contains the word `Manager`.
+
+60. Display employees ordered by `hire_date` from oldest to newest.
