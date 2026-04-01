@@ -49,7 +49,7 @@ Example (Not in 1NF):
 
 | student_id | name  | skills        |
 | ---------- | ----- | ------------- |
-| 1          | Karan | HTML, CSS, JS |
+| 1          | raj   | HTML, CSS, JS |
 
 Problem:
 
@@ -59,9 +59,9 @@ Example (In 1NF):
 
 | student_id | name  | skill |
 | ---------- | ----- | ----- |
-| 1          | Karan | HTML  |
-| 1          | Karan | CSS   |
-| 1          | Karan | JS    |
+| 1          | raj   | HTML  |
+| 1          | raj   | CSS   |
+| 1          | raj   | JS    |
 
 Understanding:
 
@@ -82,7 +82,7 @@ Example (Not in 2NF):
 
 | student_id | course_id | student_name | course_name |
 | ---------- | --------- | ------------ | ----------- |
-| 1          | 101       | Karan        | React       |
+| 1          | 101       | raj          | React       |
 
 Primary Key: (student_id, course_id)
 
@@ -99,7 +99,7 @@ Students Table:
 
 | student_id | student_name |
 | ---------- | ------------ |
-| 1          | Karan        |
+| 1          | raj          |
 
 Courses Table:
 
