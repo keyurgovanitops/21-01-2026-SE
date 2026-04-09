@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ancestor {
+    height: 70%;
+    width: 70%;
+}
+
+.grandparent {
+    height: 70%;
+    width: 70%;
+}
+
+.parent {
+    height: 70%;
+    width: 70%;
+}
+
+.child {
+    position: absolute;
+    top: 0;
+    border: 2px solid red;
+    height: 30%;
+    width: 30%;
+}

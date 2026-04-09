@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+/* boxmodel :- box - margin, padding, border, height, width   */
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+div{
+    display: inline-block;
+    border: 2px solid blue;
+    height: 50%;
+    width: 100%;
+}
+
+p {
+    border: 2px solid red;
+    color: red;
+}

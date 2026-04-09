@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: content-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid red;
+        }
+        /* vertically horzontally */
+        /* main axis secondary axis */
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: flex-start;
+            border: 4px solid blue;
+            height: 80%;
+            width: 80%;
+            flex-wrap: wrap;
+        }
+
+        .child {
+            border: 2px solid red;
+            height: 50px;
+            width: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="child">child 1</div>
+        <div class="child">child 2</div>
+        <div class="child">child 3</div>
+        <div class="child">child 4</div>
+        <div class="child">child 5</div>
+        <div class="child">child 1</div>
+        <div class="child">child 2</div>
+        <div class="child">child 3</div>
+        <div class="child">child 4</div>
+        <div class="child">child 5</div>
+    </div>
+</body>
+
+</html>
